@@ -24,15 +24,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/students/b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad",
+					"raw": "http://localhost:5000/students",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5000",
 					"path": [
-						"students",
-						"b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad"
+						"students"
 					]
 				}
 			},
@@ -53,7 +52,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/students/b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad",
+					"raw": "http://localhost:5000/students/c7c5ec6d-2e39-4841-9d8e-f7f6affb6454",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -61,7 +60,7 @@
 					"port": "5000",
 					"path": [
 						"students",
-						"b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad"
+						"c7c5ec6d-2e39-4841-9d8e-f7f6affb6454"
 					]
 				}
 			},
@@ -96,18 +95,49 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "students/c7c5ec6d-2e39-4841-9d8e-f7f6affb6454",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"first_name\": \"Nathan\",\n      \"last_name\": \"Taylor\",\n      \"age\": 18,\n      \"gender\": \"Male\",\n      \"email\": \"nathan.taylor3@example.com\",\n      \"department\": \"Education\",\n      \"level\": \"400\"\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:5000/students/c7c5ec6d-2e39-4841-9d8e-f7f6affb6454",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"c7c5ec6d-2e39-4841-9d8e-f7f6affb6454"
+					]
+				}
 			},
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "students/c7c5ec6d-2e39-4841-9d8e-f7f6affb6454quest",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/students/c7c5ec6d-2e39-4841-9d8e-f7f6affb6454",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"c7c5ec6d-2e39-4841-9d8e-f7f6affb6454"
+					]
+				}
 			},
 			"response": []
 		}

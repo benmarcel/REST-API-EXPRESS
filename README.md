@@ -27,7 +27,11 @@ Express.js
 REST-API-EXPRESS/
 ├── server.js                          # Entry point of the app
 ├── routes/
-│   └── students.js                  # Route handlers for CRUD operations
+│   └── Deletestudent.js    
+│   └── GetSinglestudent.js  
+│   └── Getstudents.js  
+│   └── Poststudent.js  
+│   └── Putstudent.js                # Route handlers for CRUD operations
 ├── controllers/
 │   └── studentController.js        # Logic for each CRUD operation
 ├── middleware/
