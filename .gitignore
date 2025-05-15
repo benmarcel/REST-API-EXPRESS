@@ -1,28 +1,3 @@
 # Node.js
 node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Logs
-logs/
-*.log
-
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# dotenv environment files
-.env
 student.json
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Editor folders and files
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project

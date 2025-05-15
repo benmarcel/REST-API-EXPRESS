@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "98db7a37-efcd-488c-9172-c1f196fc0bb2",
+		"name": "localhost:5000",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43166856"
+	},
+	"item": [
+		{
+			"name": "/students/b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"first_name\": \"chima\",\n      \"last_name\": \"ben\",\n      \"age\": 28\n     \n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/students/b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/students/b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"first_name\": \"chima\",\n      \"last_name\": \"ben\",\n      \"age\": 28\n     \n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/students/b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"b6699d89-b0eb-4c0c-b5d7-90ee67cf4aad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/students",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"first_name\": \"Nathan\",\n      \"last_name\": \"Taylor\",\n      \"age\": 18,\n      \"gender\": \"Male\",\n      \"email\": \"nathan.taylor3@example.com\",\n      \"department\": \"Education\",\n      \"level\": \"400\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

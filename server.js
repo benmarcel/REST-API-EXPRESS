@@ -13,11 +13,12 @@ app.get("/", (req, res) => {
   res.status(200).json("Hello World!");
 });
 
-// // to handle undefined routes
-// app.use((req, res)=>{
-//   res.status(404).json({error:"Endpoint not found"})
-// })
+
 app.use(studentRoute);
+// to handle undefined routes
+app.use((req, res)=>{
+  res.status(404).json({error:"Endpoint not found"})
+})
 app.listen(PORT, () =>
   console.log(`Server running on http://localhost:${PORT}`)
 );

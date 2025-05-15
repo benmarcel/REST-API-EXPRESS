@@ -97,5 +97,5 @@ DELETE /students/:id
 ## 🧠 Mock Database
 The app uses a simple array as a temporary in-memory data store:
 
-const student = [];
+let students = [];
 
