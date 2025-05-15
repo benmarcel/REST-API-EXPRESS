@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "name": "rest-api-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benmarcel/REST-API-EXPRESS.git"
+  },
+  "keywords": [],
+  "author": "chima marcel",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/benmarcel/REST-API-EXPRESS/issues"
+  },
+  "homepage": "https://github.com/benmarcel/REST-API-EXPRESS#readme"
+}
